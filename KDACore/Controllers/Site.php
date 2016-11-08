@@ -11,6 +11,6 @@ class Site extends \KDAWebLab\Controller {
     public function doAdmin(){
         
         echo "<br><b>Hello admin!</b><br/>";
-    } 
+    } //test;
     
 }
