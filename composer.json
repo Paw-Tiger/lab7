@@ -1,0 +1,20 @@
+{
+    "name": "KDA/web-lab",
+    "description": "Web-labs of KDA",
+    "require": {
+        "twig/twig": "^1.27"
+    },
+    "authors": [
+        {
+            "name": "Dmitriy Kalnichenko",
+            "email": "kalnichenko1996@mail.ru"
+        }
+    ],
+	"minimum-stability": "dev",
+    
+    "autoload":{
+        "psr-4":{
+            "KDAWebLab\\":"KDAcore/"
+        }
+    }
+}
